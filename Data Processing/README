@@ -1,10 +1,20 @@
 Files in "Data Proceesing" can be used to recreate the results of this manuscript. 
 
 1.0 metaG_processing.sh contains all scripts for trimming, assembly, binning, and annotations of MAGs, use 1.1 coverM_Conversion to get relative abundance
+
 2.0 metaT_processing.sh contains all trimming, mapping, and featureCounts, use 2.1 for filering and geTMM conversions. 
+
 3.0 LC-MSMS_HILIC_processing.R (metabolomics processing), contains steps for xcms peak detection, feature grouping, retention time adjustment, and xcms fillPeaks. use seq.csv for metadata and ExpDes.R for experimental conditions, due to the amount of samples, this part of the workflow needs to be run on an HPC
+
 3.1 ramclustR.R (can be run locally), contains clustering algorithm, normalization, and exports matrix with clusters as columns and samples as rows where cell values are TIC noramlized abundances.
+
 3.1.1 seq.csv, metadata, remove "3.1.1" before using
+
 3.1.2 ExpDes.Rdata, Rdata object that stores instrument parameters, remove "3.1.2" before loading
+
 3.2.1 server.functions.R, custom function used in ramclustR, to correct clusters that have been split
+
 3.2.2. do.findmain.R, custom function used in ramclustR.R to export mat files per cluster, output mat files are then input MSFINDER files to determine structure and formula prediction. 
+
+
+
