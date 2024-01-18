@@ -4,9 +4,3 @@ This repo contains scripts and commands used for data processing, analyses, and 
 Scripts for data processing can be found in "Data Processing"
 
 
-Scripts for generating figures can be found in "Figures"
-
-
-
-
-
