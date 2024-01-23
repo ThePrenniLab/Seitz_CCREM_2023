@@ -10,8 +10,6 @@ library(pheatmap)
 library(Maaslin2)
 library(RColorBrewer)
 
-setwd("/Users/mcgivern.9/Desktop/Projects/agribiome/2023_Val_CoverCrops/analyses/")
-
 
 # read in geTMM file
 getmm=read_excel("data_from_val/geTMM_norm.counts.rpk_edger_genes_getmms_ge3counts_3samples_withannoNEW.xlsx")
