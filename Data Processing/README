@@ -4,7 +4,7 @@ Files in "Data Proceesing" can be used to recreate the results of this manuscrip
 
 1.2 Gibberellin_BlastP.sh for blastP parameters against GA operon (from 1.3 fasta file)
 
-2.0 metaT_processing.sh contains all trimming, mapping, and featureCounts, use 2.1 for filering and geTMM conversions. 
+2.0 metaT_processing.sh contains all trimming, mapping, and featureCounts, use 2.1 for filering and geTMM conversions, and 2.2 for discriniminate analyses (masslin).
 
 3.0 LC-MSMS_HILIC_processing.R (metabolomics processing), contains steps for xcms peak detection, feature grouping, retention time adjustment, and xcms fillPeaks. use seq.csv for metadata and ExpDes.R for experimental conditions, due to the amount of samples, this part of the workflow needs to be run on an HPC
 
